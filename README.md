@@ -7,10 +7,10 @@ open to suggestions if you'd like to open an issue. (Roughly ordered by
 level of awesomeness.)
 
 * [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - BusyBox-like
-  command composition, recursive tab completion, rich embedded
-  command documentation (markdown, formatted, pager-aware, color,
-  interactive terminal detection), library of completers (files, dates,
-  calculator) and composable commands (help, config)
+  (multi-call binary) command composition, recursive tab completion,
+  rich embedded command documentation (markdown, formatted, pager-aware,
+  color, interactive terminal detection), library of completers (files,
+  dates, calculator) and composable commands (help, config)
 
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune
   scanner and optional parser designed for rapid applications
