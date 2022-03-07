@@ -36,3 +36,10 @@ level of awesomeness.)
 
 * [rwxrob/json](https://github.com/rwxrob/json) - supplements
   `encoding/json`, no unnecessary escapes
+
+* [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
+  for text terminals, favorite library for creating terminal apps
+
+* [rivo/tview](https://github.com/rivo/tview) - it's like having CSS in
+  your terminal (but not), makes short work of terminal applications
+  that need regularly used widgets
