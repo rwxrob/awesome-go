@@ -1,7 +1,6 @@
-# Awesome Go 1.18+ Modules
+# My Personal Awesome Go List
 
-My personal list of *truly* awesome Go 1.18+ modules (even if a lot of
-them are mine). Many "awesome" lists are, um, less than than awesome. I
+My personal list of awesome Go stuff (even if a lot of it is mine). I
 curate this list myself and do not accept pull requests. I am, however,
 open to suggestions if you'd like to open an issue. (Roughly ordered by
 level of awesomeness.)
