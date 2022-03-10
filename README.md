@@ -1,15 +1,18 @@
-# My Personal Awesome Go List
+# My Personal "Awesome" Go List
 
-My personal list of awesome Go stuff (even if a lot of it is mine). I
-curate this list myself and do not accept pull requests. I am, however,
-open to suggestions if you'd like to open an issue. (Roughly ordered by
-level of awesomeness.)
+My personal list of "awesome" Go stuff.
+
+## My Own Stuff
+
+Here's where I keep track of all the little utilities I make for
+different things and know where to put them at a glance (not everything
+should go in `util`, \*cough\* "ioutils", right?) 
 
 * [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - BusyBox-like
   (multi-call binary) command composition, recursive tab completion,
   rich embedded command documentation (markdown, formatted, pager-aware,
   color, interactive terminal detection), library of completers (files,
-  dates, calculator) and composable commands (help, config)
+  dates, calculator) and composable commands (help, config) 
 
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune
   scanner and optional parser designed for rapid applications
@@ -39,6 +42,12 @@ level of awesomeness.)
 
 * [rwxrob/fs](https://github.com/rwxrob/fs) - supplements the
   standard filesystem functions with simplifications and extras
+
+## Other Awesome Stuff
+
+I curate this list myself and do not accept pull requests. I'm *very*
+picky about what makes it onto this list. I am open to suggestions if
+you'd like to open an issue.
 
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
