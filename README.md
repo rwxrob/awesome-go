@@ -37,8 +37,8 @@ level of awesomeness.)
 * [rwxrob/json](https://github.com/rwxrob/json) - supplements
   `encoding/json`, no unnecessary escapes
 
-* [rwxrob/file](https://github.com/rwxrob/file) - supplements the
-  standard filesystem functions with simplifications
+* [rwxrob/fs](https://github.com/rwxrob/fs) - supplements the
+  standard filesystem functions with simplifications and extras
 
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
