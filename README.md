@@ -1,6 +1,13 @@
 # My Personal "Awesome" Go List
 
-My personal list of "awesome" Go stuff.
+> "Oh really, Jessie, does it inspire awe?" (Jane, Breaking Bad)
+
+I'm not a fan of most "awesome" lists. Most of them are full of shit and
+are more about promoting that shit than anything else. My list has two
+purposes, 1) so I can find my own awesome stuff later and keep it
+organized when I discover some new way to do something simpler, and 2)
+so I can curate a truly amazing list of awe-inspiring packages (usually
+stuff I actual pay my own money to sponsor, it's that good).
 
 ## My Own Stuff
 
