@@ -28,13 +28,17 @@ level of awesomeness.)
 
 * [rwxrob/term](https://github.com/rwxrob/term) - VT100 ANSI terminal
   escapes, no wasteful function calls just to change colors or terminal
-  state, interactive terminal detection, window size queries
+  state, interactive terminal detection, window size queries, reading
+  user input
 
 * [rwxrob/to](https://github.com/rwxrob/to) - library of converter
   utility functions
 
 * [rwxrob/json](https://github.com/rwxrob/json) - supplements
   `encoding/json`, no unnecessary escapes
+
+* [rwxrob/file](https://github.com/rwxrob/file) - supplements the
+  standard filesystem functions with simplifications
 
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
