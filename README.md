@@ -32,6 +32,11 @@ should go in `util`, \*cough\* "ioutils", right?)
   Go with generics, `fn.A` functional array type, library of map
   functions (mapf), map transformations (maps), filters (filt)
 
+* [rwxrob/http](https://github.com/rwxrob/http) - basically `curl` in
+  Go, all the most common simple request with generic marshaling
+  including HTTP pipelines to populate fields in single struct between
+  multiple, chained HTTP requests of any type
+
 * [rwxrob/structs](https://github.com/rwxrob/structs) - traditional data
   structures (list, set, stack, node, tree, etc.) implemented with rapid
   applications development (replacing shell scripts) as design priority
