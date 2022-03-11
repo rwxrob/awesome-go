@@ -28,14 +28,15 @@ should go in `util`, \*cough\* "ioutils", right?)
   rooted node tree structure, easy to generate code from PEGN, PEG,
   ABNF, EBNF, regular expressions
 
-* [rwxrob/fn](https://github.com/rwxrob/fn) - map/filter/reduce/each in
-  Go with generics, `fn.A` functional array type, library of map
-  functions (mapf), map transformations (maps), filters (filt)
+* [rwxrob/fn](https://github.com/rwxrob/fn) - my own collection of
+  map/filter/reduce/each in Go with generics, `fn.A` functional array
+  type, library of map functions (mapf), map transformations (maps),
+  filters (filt) (you might prefer [samber/lo](https://github.com/samber/lo))
 
 * [rwxrob/http](https://github.com/rwxrob/http) - basically `curl` in
-  Go, all the most common simple request with generic marshaling
-  including HTTP pipelines to populate fields in single struct between
-  multiple, chained HTTP requests of any type
+  Go, all the most common simple HTTP request methods with generic
+  marshaling including HTTP pipelines to populate fields in single
+  struct between multiple, chained HTTP requests of any type
 
 * [rwxrob/structs](https://github.com/rwxrob/structs) - traditional data
   structures (list, set, stack, node, tree, etc.) implemented with rapid
@@ -67,3 +68,6 @@ you'd like to open an issue.
 * [rivo/tview](https://github.com/rivo/tview) - it's like having CSS in
   your terminal (but not), makes short work of terminal applications
   that need regularly used widgets
+
+* [samber/lo](https://github.com/samber/lo) - lodash in Go 1.18 that's 7
+  times faster than equivalents using reflection
