@@ -33,11 +33,6 @@ should go in `util`, \*cough\* "ioutils", right?)
   type, library of map functions (mapf), map transformations (maps),
   filters (filt) (you might prefer [samber/lo](https://github.com/samber/lo))
 
-* [rwxrob/http](https://github.com/rwxrob/http) - basically `curl` in
-  Go, all the most common simple HTTP request methods with generic
-  marshaling including HTTP pipelines to populate fields in single
-  struct between multiple, chained HTTP requests of any type
-
 * [rwxrob/structs](https://github.com/rwxrob/structs) - traditional data
   structures (list, set, stack, node, tree, etc.) implemented with rapid
   applications development (replacing shell scripts) as design priority
@@ -51,7 +46,8 @@ should go in `util`, \*cough\* "ioutils", right?)
   utility functions
 
 * [rwxrob/json](https://github.com/rwxrob/json) - supplements
-  `encoding/json`, no unnecessary escapes
+  `encoding/json`, includes unmarshaling JSON from HTTP requests into
+  any type that can be passed to `json.Unmarshal`
 
 * [rwxrob/fs](https://github.com/rwxrob/fs) - supplements the
   standard filesystem functions with simplifications and extras
