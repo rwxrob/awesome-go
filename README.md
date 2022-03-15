@@ -21,12 +21,12 @@ should go in `util`, \*cough\* "ioutils", right?)
   color, interactive terminal detection), library of completers (files,
   dates, calculator) and composable commands (help, config) 
 
-* [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune
-  scanner and optional parser designed for rapid applications
-  development without sacrificing performance, batteries included, zero
-  function recursion, intuitive methods, optional JSON ASTs, clean
-  rooted node tree structure, easy to generate code from PEGN, PEG,
-  ABNF, EBNF, regular expressions
+* [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune scanner
+  and optional parser designed for rapid applications development
+  without sacrificing performance, batteries included, intuitive
+  methods, scan.X expression interpreter in pure Go for easy code
+  generation from meta languages such as PEGN and without leaving Vim
+  using the UNIX filter commands (`!`)
 
 * [rwxrob/fn](https://github.com/rwxrob/fn) - my own collection of
   map/filter/reduce/each in Go with generics, `fn.A` functional array
