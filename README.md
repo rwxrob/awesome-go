@@ -67,3 +67,12 @@ you'd like to open an issue.
 
 * [samber/lo](https://github.com/samber/lo) - lodash in Go 1.18 that's 7
   times faster than equivalents using reflection
+
+## Learning Resources
+
+There are a lot of shitty Go learning resources out there. Most of them
+are woefully out of date. Just be really careful. Nothing goes on this
+this that isn't 100% relevant to modern Go 1.18+.
+
+* Go Code Review Comments  
+  <https://github.com/golang/go/wiki/CodeReviewComments>
