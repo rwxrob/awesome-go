@@ -58,6 +58,9 @@ I curate this list myself and do not accept pull requests. I'm *very*
 picky about what makes it onto this list. I am open to suggestions if
 you'd like to open an issue.
 
+* [kubernetes/gengo](https://github.com/kubernetes/gengo) - performant
+  deep copy methods for any data structure and other code generation
+
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
 
