@@ -22,11 +22,10 @@ should go in `util`, \*cough\* "ioutils", right?)
   dates, calculator) and composable commands (help, config) 
 
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune scanner
-  and optional parser designed for rapid applications development
-  without sacrificing performance, batteries included, intuitive
-  methods, scan.X expression interpreter in pure Go for easy code
-  generation from meta languages such as PEGN and without leaving Vim
-  using the UNIX filter commands (`!`)
+  and optional node-tree parser designed for rapid grammar and
+  domain-specific language development with intuitive methods and
+  traceable scan.X expression language interpreter in pure Go for easy
+  code generation from meta languages such as PEGN
 
 * [rwxrob/fn](https://github.com/rwxrob/fn) - my own collection of
   map/filter/reduce/each in Go with generics, `fn.A` functional array
