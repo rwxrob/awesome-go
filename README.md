@@ -67,6 +67,9 @@ you'd like to open an issue.
 * [samber/lo](https://github.com/samber/lo) - lodash in Go 1.18 that's 7
   times faster than equivalents using reflection
 
+* [cavaliercoder/grab](https://github.com/cavaliercoder/grab) - highly
+  concurrent downloads with status updates in Go 
+
 ## Learning Resources
 
 There are a lot of shitty Go learning resources out there. Most of them
