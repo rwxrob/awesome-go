@@ -15,11 +15,15 @@ Here's where I keep track of all the little utilities I make for
 different things and know where to put them at a glance (not everything
 should go in `util`, \*cough\* "ioutils", right?) 
 
-* [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - BusyBox-like
-  (multi-call binary) command composition, recursive tab completion,
-  rich embedded command documentation (markdown, formatted, pager-aware,
-  color, interactive terminal detection), library of completers (files,
-  dates, calculator) and composable commands (help, config) 
+* [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - Go commander with
+  command composition, recursive tab completion, rich embedded command
+  documentation (markdown, formatted, pager-aware, color, interactive
+  terminal detection), library of completers (files, dates, calculator)
+  and composable commands (help, config) 
+
+* [rwxrob/z](https://github.com/rwxrob/z) - my personal, portable Bonzai
+  command tree, use it for ideas to start your own utility monolith
+  command
 
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune scanner
   and optional node-tree parser designed for rapid grammar and
