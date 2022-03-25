@@ -80,5 +80,8 @@ There are a lot of shitty Go learning resources out there. Most of them
 are woefully out of date. Just be really careful. Nothing goes on this
 this that isn't 100% relevant to modern Go 1.18+.
 
+* Get Programming with Go  
+  https://www.manning.com/books/get-programming-with-go 
+
 * Go Code Review Comments  
   <https://github.com/golang/go/wiki/CodeReviewComments>
