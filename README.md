@@ -58,8 +58,8 @@ should go in `util`, \*cough\* "ioutils", right?)
 ## Other Awesome Stuff
 
 I curate this list myself and do not accept pull requests. I'm *very*
-picky about what makes it onto this list. I am open to suggestions if
-you'd like to open an issue.
+picky about what makes it onto it. I am open to suggestions if you'd
+like to open an issue.
 
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
@@ -76,12 +76,33 @@ you'd like to open an issue.
 
 ## Learning Resources
 
-There are a lot of shitty Go learning resources out there. Most of them
+There are a lot of bad Go learning resources out there. Most of them
 are woefully out of date. Just be really careful. Nothing goes on this
 this that isn't 100% relevant to modern Go 1.18+.
 
+* Go-Nuts USENET Newsgroup.  
+  <https://groups.google.com/g/golang-nuts>
+
+  This is where the creators and Go project leaders are regularly
+  answering questions and discussing the direction of the language. This
+  resource is far better than Reddit and even the official Go Discord
+  channel (which you can find from <https://go.dev>). Keep in mind that
+  anything ever written here is permanently saved, forever. I prefer
+  this because all submissions are moderated and people actually take a
+  moment to consider what they write before posting toxic crap (unlike
+  Reddit and Discord, etc.)
+
 * Get Programming with Go  
-  https://www.manning.com/books/get-programming-with-go 
+  <https://www.manning.com/books/get-programming-with-go>
+
+  This book seems like the best for absolute beginners since it assumes
+  you know nothing about programming at all and uses the Go playground
+  and nothing more and doesn't get into the weeds about modules and
+  project management and stuff (which is also its greatest weakness
+  since you have to learn that stuff as well before doing anything
+  significant with it). I intend to use this book (and the author has
+  volunteered to help) during the [2022 Beginner
+  Boost](https://github.com/rwxrob/boost) on May 4th.
 
 * Go Code Review Comments  
   <https://github.com/golang/go/wiki/CodeReviewComments>
