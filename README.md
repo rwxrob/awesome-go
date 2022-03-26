@@ -106,3 +106,13 @@ this that isn't 100% relevant to modern Go 1.18+.
 
 * Go Code Review Comments  
   <https://github.com/golang/go/wiki/CodeReviewComments>
+
+* Beej's Guide to Network Programming  
+  http://beej.us/guide/bgnet/
+
+  The book is in C, but so much of Go programming overlaps with that
+  domain --- especially with microservices --- that reading this book
+  should be mandatory for Go developers (or any developer). It covers
+  things like proper UNIX file system semaphores and other architectural
+  design concerns that most people coming to coding from academia or
+  otherwise just won't think about intuitively.
