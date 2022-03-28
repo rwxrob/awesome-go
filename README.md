@@ -13,17 +13,17 @@ stuff I actual pay my own money to sponsor, it's that good).
 
 Here's where I keep track of all the little utilities I make for
 different things and know where to put them at a glance (not everything
-should go in `util`, \*cough\* "ioutils", right?) 
+should go in `util`, \*cough\* "ioutils", right?)
 
 * [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - Go commander with
   command composition, recursive tab completion, rich embedded command
   documentation (markdown, formatted, pager-aware, color, interactive
   terminal detection), library of completers (files, dates, calculator)
-  and composable commands (help, config) 
+  and composable commands (help, config)
 
 * [rwxrob/z](https://github.com/rwxrob/z) - my personal, portable Bonzai
-  command tree, use it for ideas to start your own utility monolith
-  command
+  command tree, use it for ideas to start your own composable command
+  utility monolith (and replace all those shell scripts)
 
 * [rwxrob/config](https://github.com/rwxrob/config) - universal
   YAML configuration management as a Bonzai branch (composable command),
@@ -60,10 +60,13 @@ should go in `util`, \*cough\* "ioutils", right?)
   applications development (replacing shell scripts) as design priority
 
 * [rwxrob/y2j](https://github.com/rwxrob/y2j) - YAML to JSON Bonzai
-  branch (composable command)
+  branch (composable command) including `pkg/y2j.Convert` high-level
+  function for importing without Bonzai
 
 * [rwxrob/yq](https://github.com/rwxrob/yq) - popular `yq` tool as a
-  Bonzai branch (composable command, instead of Cobra)
+  Bonzai branch (composable command, instead of Cobra), includes
+  "batteries included" `pkg/yq.Evaluate` call to `yqlib` with reasonable
+  defaults for importing without Bonzai
 
 ## Other Awesome Stuff
 
