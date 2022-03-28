@@ -25,6 +25,10 @@ should go in `util`, \*cough\* "ioutils", right?)
   command tree, use it for ideas to start your own utility monolith
   command
 
+* [rwxrob/config](https://github.com/rwxrob/config) - universal
+  YAML configuration management as a Bonzai branch (composable command),
+  default for all bonzai.Cmds
+
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune scanner
   and optional node-tree parser designed for rapid grammar and
   domain-specific language development with intuitive methods and
@@ -36,9 +40,12 @@ should go in `util`, \*cough\* "ioutils", right?)
   type, library of map functions (mapf), map transformations (maps),
   filters (filt) (you might prefer [samber/lo](https://github.com/samber/lo))
 
-* [rwxrob/structs](https://github.com/rwxrob/structs) - traditional data
-  structures (list, set, stack, node, tree, etc.) implemented with rapid
-  applications development (replacing shell scripts) as design priority
+* [rwxrob/fs](https://github.com/rwxrob/fs) - supplements the
+  standard filesystem functions with simplifications and extras
+
+* [rwxrob/json](https://github.com/rwxrob/json) - supplements
+  `encoding/json`, includes unmarshaling JSON from HTTP requests into
+  any type that can be passed to `json.Unmarshal`
 
 * [rwxrob/term](https://github.com/rwxrob/term) - VT100 ANSI terminal
   escapes, no wasteful function calls just to change colors or terminal
@@ -48,12 +55,15 @@ should go in `util`, \*cough\* "ioutils", right?)
 * [rwxrob/to](https://github.com/rwxrob/to) - library of converter
   utility functions
 
-* [rwxrob/json](https://github.com/rwxrob/json) - supplements
-  `encoding/json`, includes unmarshaling JSON from HTTP requests into
-  any type that can be passed to `json.Unmarshal`
+* [rwxrob/structs](https://github.com/rwxrob/structs) - traditional data
+  structures (list, set, stack, node, tree, etc.) implemented with rapid
+  applications development (replacing shell scripts) as design priority
 
-* [rwxrob/fs](https://github.com/rwxrob/fs) - supplements the
-  standard filesystem functions with simplifications and extras
+* [rwxrob/y2j](https://github.com/rwxrob/y2j) - YAML to JSON Bonzai
+  branch (composable command)
+
+* [rwxrob/yq](https://github.com/rwxrob/yq) - popular `yq` tool as a
+  Bonzai branch (composable command, instead of Cobra)
 
 ## Other Awesome Stuff
 
@@ -72,7 +82,13 @@ like to open an issue.
   times faster than equivalents using reflection
 
 * [cavaliercoder/grab](https://github.com/cavaliercoder/grab) - highly
-  concurrent downloads with status updates in Go 
+  concurrent downloads with status updates in Go
+
+* [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) - home
+  of `lockedfile` (proposed standard addition), the only want to ever
+  write safely to a file on all operating systems (hint: you're probably
+  doing it wrong, creating a "lock" file is never enough)), this is
+  currently how `go` binary handles system-wide file read/write locking
 
 ## Learning Resources
 
