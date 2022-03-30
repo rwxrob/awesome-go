@@ -25,9 +25,9 @@ should go in `util`, \*cough\* "ioutils", right?)
   command tree, use it for ideas to start your own composable command
   utility monolith (and replace all those shell scripts)
 
-* [rwxrob/config](https://github.com/rwxrob/config) - universal
-  YAML configuration management as a Bonzai branch (composable command),
-  default for all bonzai.Cmds
+* [rwxrob/config](https://github.com/rwxrob/config) - Bonzai branch for
+  universal YAML configuration management, default `Configurer` for all
+  bonzai.Cmds
 
 * [rwxrob/scan](https://github.com/rwxrob/scan) - universal rune scanner
   and optional node-tree parser designed for rapid grammar and
@@ -59,14 +59,17 @@ should go in `util`, \*cough\* "ioutils", right?)
   structures (list, set, stack, node, tree, etc.) implemented with rapid
   applications development (replacing shell scripts) as design priority
 
-* [rwxrob/y2j](https://github.com/rwxrob/y2j) - YAML to JSON Bonzai
-  branch (composable command) including `pkg/y2j.Convert` high-level
-  function for importing without Bonzai
+* [rwxrob/uniq](https://github.com/rwxrob/uniq) - Bonzai branch of
+  common universal unique identifiers with high-level `pkg` library as
+  well
 
-* [rwxrob/yq](https://github.com/rwxrob/yq) - popular `yq` tool as a
-  Bonzai branch (composable command, instead of Cobra), includes
-  "batteries included" `pkg/yq.Evaluate` call to `yqlib` with reasonable
-  defaults for importing without Bonzai
+* [rwxrob/y2j](https://github.com/rwxrob/y2j) - Bonzai branch for YAML
+  to JSON conversion without unnecessary `encoding/json` escapes,
+  includes `pkg` with high-level `Convert` function
+
+* [rwxrob/yq](https://github.com/rwxrob/yq) - Bonzai branch with popular
+  `yq` tool (same `yqlib` dependency), includes `pkg` with high-level
+  `Evaluate` and `EvaluateToString` functions with reasonable defaults
 
 ## Other Awesome Stuff
 
