@@ -67,7 +67,9 @@ really that good.
 
   Supplements the standard filesystem functions with simplifications and
   extras that make rapid application development slightly less annoying
-  in Go
+  in Go; be sure to use `lockedfile` from
+  [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) for
+  system-wide file locking
 
 * **JSON Done Right with Remote Source Marshaling**
   ([rwxrob/json](https://github.com/rwxrob/json))
