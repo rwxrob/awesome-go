@@ -185,3 +185,18 @@ that isn't 100% relevant to modern Go 1.18+.
   things like proper UNIX file system semaphores and other architectural
   design concerns that most people coming to coding from academia or
   otherwise just won't think about intuitively.
+
+* **Why Go and Not Rust**
+  <https://kristoff.it/blog/why-go-and-not-rust/>
+
+  This is a very stoic and objective look (not my personal writing
+  style) at why Go is *the* language of enterprise and cloud-native
+  computing and why it will *never* lose that position to anything else
+  --- especially Rust. I'll confess to a, "well duh" thought a time or
+  two while reading it, but a lot of beginners and veterans alike might
+  need to read the very practical reason why Go is the best tool for
+  *most* things and Rust is perhaps the best tool for a few isolated
+  things, which is why the most significant software applications of the
+  cloud and container era were all written in Go, not Rust and, by
+  extension, why there are tons of jobs for Go and almost zero for Rust
+  developers.
