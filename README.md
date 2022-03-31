@@ -4,24 +4,19 @@
 
 I'm not a fan of most "awesome" lists. Most of them are full of shit and
 are more about promoting that shit than anything else. My list has two
-purposes, 1) so I can find my own awesome stuff later and keep it
-organized when I discover some new way to do something simpler, and 2)
-so I can curate a truly amazing list of awe-inspiring packages (usually
-stuff I actual pay my own money to sponsor, it's that good).
+purposes, 1) promote my own shit and keep track of it, and 2)
+curate a truly amazing list of awe-inspiring packages, some of which
+I actually sponsor with cash, they're that good.
 
 ## My Own Stuff
 
-Here's where I keep track of all the little utilities I make for
-different things and know where to put them at a glance (not everything
-should go in `util`, \*cough\* "ioutils", right?)
+* [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - Go Bonzai composite
+  commander with recursive tab completion, command aliases, rich embedded
+  command documentation (markdown, formatted, pager-aware, color, interactive
+  terminal detection), library of completers (files, dates, calculator),
+  localized, modular configuration management and caching in YAML (v3)
 
-* [rwxrob/bonzai](https://github.com/rwxrob/bonzai) - Go commander with
-  command composition, recursive tab completion, rich embedded command
-  documentation (markdown, formatted, pager-aware, color, interactive
-  terminal detection), library of completers (files, dates, calculator)
-  and composable commands (help, config)
-
-* [rwxrob/z](https://github.com/rwxrob/z) - my personal, portable Bonzai
+* [rwxrob/z](https://github.com/rwxrob/z) - personal, portable Bonzai
   command tree, use it for ideas to start your own composable command
   utility monolith (and replace all those shell scripts)
 
