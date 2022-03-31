@@ -15,8 +15,8 @@ really that good.
 
 ## My Own Stuff
 
-* 🌳 **Go Bonzai™ Composite Commander**  
-  [rwxrob/bonzai](https://github.com/rwxrob/bonzai)
+* 🌳 **Go Bonzai™ Composite Commander**
+  ([rwxrob/bonzai](https://github.com/rwxrob/bonzai))
 
   A truly unique commander with recursive tab completion (without
   exporting shell code), command aliases, multicall or monolith mode,
@@ -25,8 +25,8 @@ really that good.
   dates, calculator), localized, modular configuration management, fast
   local YAML caching
 
-* 🌳 **Personal Bonzai `z` Command Tree Monolith**  
-  [rwxrob/z](https://github.com/rwxrob/z)
+* 🌳 **Personal Bonzai Command Tree Monolith**
+  ([rwxrob/z](https://github.com/rwxrob/z))
 
   My meticulously manicured `z` command (which I use *constantly*) and
   easily copy to *any* system so I have all my favorite "scripts";
@@ -36,15 +36,15 @@ really that good.
   in seconds, with or without Docker (even in a K8S pod); possible
   companion to a Go Bonzai root-kit monolith
 
-* 🌳 **Localized Configuration Management with YAML**  
-  [rwxrob/config](https://github.com/rwxrob/config)
+* 🌳 **Localized Configuration Management with YAML**
+  ([rwxrob/config](https://github.com/rwxrob/config))
 
   Bonzai branch for universal YAML configuration management; default
   `Configurer` for all `bonzai.Cmds`; includes `yq` expressions and
   pathing
 
-* **Universal Rune Scanner with scan.X Expressions**  
-  [rwxrob/scan](https://github.com/rwxrob/scan)
+* **Universal Rune Scanner with scan.X Expressions**
+  ([rwxrob/scan](https://github.com/rwxrob/scan))
 
   A unique, performant rune scanner optimized for infinite look-ahead
   and behind including multiple cursor support and optional node-tree
@@ -53,8 +53,8 @@ really that good.
   language interpreter in pure Go for easy code generation from meta
   languages such as PEGN
 
-* **Functional Programming Facilitators with Go Generics**  
-  [rwxrob/fn](https://github.com/rwxrob/fn)
+* **Functional Programming Facilitators with Go Generics**
+  ([rwxrob/fn](https://github.com/rwxrob/fn))
 
   My own collection of map/filter/reduce/each-like things; great for
   rapid (replacing shell scripts) development; includes a terse `fn.A`
@@ -62,61 +62,62 @@ really that good.
   transformations (`maps`), and UNIX filters (`filt`); (also see
   [samber/lo](https://github.com/samber/lo))
 
-* **File and Directory Utility Functions**  
-  [rwxrob/fs](https://github.com/rwxrob/fs)
+* **File and Directory Utility Functions**
+  ([rwxrob/fs](https://github.com/rwxrob/fs))
 
   Supplements the standard filesystem functions with simplifications and
   extras that make rapid application development slightly less annoying
   in Go
 
-* **JSON Done Right with Remote Source Marshaling**  
-  [rwxrob/json](https://github.com/rwxrob/json)
+* **JSON Done Right with Remote Source Marshaling**
+  ([rwxrob/json](https://github.com/rwxrob/json))
 
   Fixes the very broken defaults in `encoding/json`; includes
   unmarshaling JSON directly from web via HTTP requests into any type
   that can be passed to `json.Unmarshal` by leveraging yaml.v3 `inline`
   (learned from the Kind project)
 
-* **VT100 ANSI Terminal Utilities**  
-  [rwxrob/term](https://github.com/rwxrob/term)
+* **VT100 ANSI Terminal Utilities**
+  ([rwxrob/term](https://github.com/rwxrob/term))
 
   VT100 ANSI terminal escapes; no wasteful function calls just to change
   colors or terminal state; interactive terminal detection; window size
   queries; read visible and hidden user input 
 
-* **Converter Utility Functions**  
-  [rwxrob/to](https://github.com/rwxrob/to)
+* **Converter Utility Functions**
+  ([rwxrob/to](https://github.com/rwxrob/to))
 
   Transformations I find myself doing so much that they warrant their
   own `to` package module; string -> lines, etc.
 
-* **Traditional, Hybrid Data Structures with Generics**  
-  [rwxrob/structs](https://github.com/rwxrob/structs)
+* **Traditional, Hybrid Data Structures with Generics**
+  ([rwxrob/structs](https://github.com/rwxrob/structs))
 
   List, set, stack, node, tree, etc. implemented with rapid applications
   development (replacing shell scripts) as design priority; used in most
   other applications listed here --- especially `qstack` and `tree`.
 
-* 🌳 **Universal Unique Identifiers**  
-  [rwxrob/uniq](https://github.com/rwxrob/uniq)
+* 🌳 **Universal Unique Identifiers**
+  ([rwxrob/uniq](https://github.com/rwxrob/uniq))
 
   The usual universal unique identifiers: `uuid`, `isosec`, `epoch`,
   `base32`, `hex`; includes high-level `pkg` library; essential for
   cobbling together flat-file data stores, etc.
 
-* 🌳 **YAML to JSON Converter**  
-  [rwxrob/y2j](https://github.com/rwxrob/y2j)
+* 🌳 **YAML to JSON Converter**
+  ([rwxrob/y2j](https://github.com/rwxrob/y2j))
 
   YAML to JSON conversion without the unnecessary `encoding/json`
   escapes (see rwxrob/json above); includes `pkg` with high-level
   `Convert` function
 
-* 🌳 **The `yq` YAML Query Utility without Cobra**  
-  [rwxrob/yq](https://github.com/rwxrob/yq)
+* 🌳 **The Popular YAML Query Utility without Cobra**
+  ([rwxrob/yq](https://github.com/rwxrob/yq))
 
-  The popular `yq` tool (same `yqlib` dependency); includes `pkg` with
-  high-level `Evaluate` and `EvaluateToString` functions with reasonable
-  defaults
+  This is a duplicate of the `yq` tool (with the same `yqlib`
+  dependency); includes `pkg` with high-level `Evaluate` and
+  `EvaluateToString` functions with reasonable defaults; can be called
+  from other Bonzai commands 
 
 ## Other Awesome Stuff
 
@@ -142,11 +143,11 @@ really that good.
 
 ## Learning Resources
 
-There are a lot of bad Go learning resources out there. Most of them
-are woefully out of date. Just be really careful. Nothing goes on this
-this that isn't 100% relevant to modern Go 1.18+.
+There are a lot of bad Go learning resources out there. Most of them are
+woefully out of date. Just be really careful. Nothing goes on this this
+that isn't 100% relevant to modern Go 1.18+.
 
-* **Go-Nuts USENET Newsgroup.**  
+* **Go-Nuts USENET Newsgroup.**
   <https://groups.google.com/g/golang-nuts>
 
   This is where the creators and Go project leaders are regularly
@@ -158,7 +159,7 @@ this that isn't 100% relevant to modern Go 1.18+.
   moment to consider what they write before posting toxic crap (unlike
   Reddit and Discord, etc.)
 
-* **Get Programming with Go**  
+* **Get Programming with Go**
   <https://www.manning.com/books/get-programming-with-go>
 
   This book seems like the best for absolute beginners since it assumes
@@ -170,10 +171,10 @@ this that isn't 100% relevant to modern Go 1.18+.
   volunteered to help) during the [2022 Beginner
   Boost](https://github.com/rwxrob/boost) on May 4th.
 
-* **Go Code Review Comments**  
+* **Go Code Review Comments**
   <https://github.com/golang/go/wiki/CodeReviewComments>
 
-* **Beej's Guide to Network Programming**  
+* **Beej's Guide to Network Programming**
   <https://beej.us/guide/bgnet/>
 
   The book is in C, but so much of Go programming overlaps with that
