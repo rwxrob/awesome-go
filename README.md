@@ -8,6 +8,7 @@ two purposes:
 
 1. Promote my own crap and keep track of it
 2. Easily find awe-inspiring Go 1.18+ code and content
+3. Help people get started with Go programming
 
 Disclosure: I actually sponsor some of these with my own cash. They are
 really that good.
