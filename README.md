@@ -36,7 +36,7 @@ really that good.
   in seconds, with or without Docker (even in a K8S pod); possible
   companion to a Go Bonzai root-kit monolith
 
-* 🌳 **Localized Configuration Management with YAML**
+* 🌳 **Local Config Management with YAML**
   ([rwxrob/config](https://github.com/rwxrob/config))
 
   Bonzai branch for universal YAML configuration management; default
@@ -53,7 +53,7 @@ really that good.
   language interpreter in pure Go for easy code generation from meta
   languages such as PEGN
 
-* **Functional Programming Facilitators with Go Generics**
+* **Functional Programming with Go Generics**
   ([rwxrob/fn](https://github.com/rwxrob/fn))
 
   My own collection of map/filter/reduce/each-like things; great for
@@ -62,7 +62,7 @@ really that good.
   transformations (`maps`), and UNIX filters (`filt`); (also see
   [samber/lo](https://github.com/samber/lo))
 
-* **File and Directory Utility Functions**
+* **File and Directory Utilities**
   ([rwxrob/fs](https://github.com/rwxrob/fs))
 
   Supplements the standard filesystem functions with simplifications and
@@ -90,7 +90,7 @@ really that good.
   Transformations I find myself doing so much that they warrant their
   own `to` package module; string -> lines, etc.
 
-* **Traditional, Hybrid Data Structures with Generics**
+* **Hybrid Data Structures with Generics**
   ([rwxrob/structs](https://github.com/rwxrob/structs))
 
   List, set, stack, node, tree, etc. implemented with rapid applications
@@ -111,7 +111,7 @@ really that good.
   escapes (see rwxrob/json above); includes `pkg` with high-level
   `Convert` function
 
-* 🌳 **The Popular YAML Query Utility without Cobra**
+* 🌳 **Popular YAML Query Utility without Cobra**
   ([rwxrob/yq](https://github.com/rwxrob/yq))
 
   This is a duplicate of the `yq` tool (with the same `yqlib`
