@@ -71,13 +71,21 @@ really that good.
   [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) for
   system-wide file locking
 
-* **JSON Done Right with Remote Source Marshaling**
+* **JSON Done Right with AsJSON Interface and Remote Source Marshaling**
   ([rwxrob/json](https://github.com/rwxrob/json))
 
   Fixes the very broken defaults in `encoding/json`; includes
   unmarshaling JSON directly from web via HTTP requests into any type
   that can be passed to `json.Unmarshal` by leveraging yaml.v3 `inline`
   (learned from the Kind project)
+
+* **Marshal Anything as YAML with AsYAML Interface**
+  ([rwxrob/yaml](https://github.com/rwxrob/yaml))
+
+  A personal commitment to first marshal everything in YAML since
+  yaml.v3 is so superior to anything available for JSON --- especially
+  `yaml:",inline"`. I prefer to YAML all the config things and Protobuf
+  all the performant data serialization things.
 
 * **VT100 ANSI Terminal Utilities**
   ([rwxrob/term](https://github.com/rwxrob/term))
@@ -143,6 +151,14 @@ really that good.
   enough)); this is currently how `go` binary handles system-wide file
   read/write locking
 
+* [protocolbuffers/protobuf][] - home of Protobuf, the world's best
+  mainstream way to communicate with an emphasis on performance, YAML
+  for configurations, Protobuf for everything else, that's where things
+  are going
+
+[protocolbuffers/protobuf]: <https://github.com/protocolbuffers/protobuf>
+
+
 ## Learning Resources
 
 There are a lot of bad Go learning resources out there. Most of them are
@@ -200,3 +216,10 @@ that isn't 100% relevant to modern Go 1.18+.
   cloud and container era were all written in Go, not Rust and, by
   extension, why there are tons of jobs for Go and almost zero for Rust
   developers.
+
+* Protocol Buffers  
+  <https://developers.google.com/protocol-buffers/>
+
+  Protobuf format is mandatory learning for any serious Go developer
+  wanting to get into microservices or anything that communicates or
+  caches with performance requirements.
