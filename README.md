@@ -46,12 +46,9 @@ really that good.
 * **Universal Rune Scanner with scan.X Expressions**
   ([rwxrob/scan](https://github.com/rwxrob/scan))
 
-  A unique, performant rune scanner optimized for infinite look-ahead
-  and behind including multiple cursor support and optional node-tree
-  parser designed for rapid grammar and domain-specific language
-  development with intuitive methods and traceable scan.X expression
-  language interpreter in pure Go for easy code generation from meta
-  languages such as PEGN
+  A simple, highly performant buffered rune scanner; optimized for
+  infinite lookahead/behind; designed with grammar creation in mind;
+  optional trace logs to help debug complex scans
 
 * **Functional Programming with Go Generics**
   ([rwxrob/fn](https://github.com/rwxrob/fn))
