@@ -1,5 +1,35 @@
 # My Personal "Awesome" Go List
 
+> 🎉 Just learning Go? Never coded before? welcome to the party! Here's
+> what I recommend most people do to learn it well. (Note that I do not
+> list non-free resources, ever, but you can always support these
+> financially if you choose):
+>
+> 0. Do the [*Beginner Boost™*][0] every year (we cover latest Go)
+> 1. [*Tour of Go*][1] (no setup, get coding, okay not to finish)
+> 2. Start a personal [Bonzai™ command tree][2] to play around
+> 3. [*How to Write Go Code*][3]
+> 4. [*Effective go*][4]
+> 5. Start reading [*Go 101*][5] concurrently (600 pages)
+> 6. Code some concurrency with `net/http`, contexts, and `html/template`
+> 7. *The Go Programming Language Specification* to fill any gap
+> 8. Read and learn from the Go standard library source code
+>
+> 💥 It is really important you get coding something you *want* to make,
+> a project, as soon as possible. That will keep you motivated to learn.
+> Obviously, you'll be writing a lot of your own code between reading
+> books. But, by the time you read all of that, while coding at the same
+> time, you'll be on your way to becoming a Go master for sure.
+ 
+[0]: <https://github.com/rwxrob/boost>
+[1]: <http://go.dev/tour>
+[2]: <https://github.com/rwxrob/foo>
+[3]: <https://golang.org/doc/code.html>
+[4]: <https://golang.org/doc/effective_go.html>
+[5]: <https://golang.org/ref/spec>
+
+And ...
+
 > "Oh really, Jessie, does it inspire awe?" (Jane, Breaking Bad)
 
 I'm not a fan of most "awesome" lists. Most of them are full of crap and
@@ -160,7 +190,8 @@ really that good.
 
 There are a lot of bad Go learning resources out there. Most of them are
 woefully out of date. Just be really careful. Nothing goes on this this
-that isn't 100% relevant to modern Go 1.18+.
+that isn't 100% relevant to modern Go 1.18+ and available for free
+(although I encourage you to support them the best you can).
 
 * **Go-Nuts USENET Newsgroup.**
   <https://groups.google.com/g/golang-nuts>
@@ -173,18 +204,6 @@ that isn't 100% relevant to modern Go 1.18+.
   this because all submissions are moderated and people actually take a
   moment to consider what they write before posting toxic crap (unlike
   Reddit and Discord, etc.)
-
-* **Get Programming with Go**
-  <https://www.manning.com/books/get-programming-with-go>
-
-  This book seems like the best for absolute beginners since it assumes
-  you know nothing about programming at all and uses the Go playground
-  and nothing more and doesn't get into the weeds about modules and
-  project management and stuff (which is also its greatest weakness
-  since you have to learn that stuff as well before doing anything
-  significant with it). I intend to use this book (and the author has
-  volunteered to help) during the [2022 Beginner
-  Boost](https://github.com/rwxrob/boost) on May 4th.
 
 * **Go Code Review Comments**
   <https://github.com/golang/go/wiki/CodeReviewComments>
