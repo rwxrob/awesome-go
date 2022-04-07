@@ -5,15 +5,15 @@
 > list non-free resources, ever, but you can always support these
 > financially if you choose):
 >
-> 0. Do the [*Beginner Boost™*][0] every year (we cover latest Go)
-> 1. [*Tour of Go*][1] (no setup, get coding, okay not to finish)
+> 0. Do the [Beginner Boost™][0] every year (we cover latest Go)
+> 1. [Tour of Go][1] (no setup, get coding, okay not to finish)
 > 2. Start a personal [Bonzai™ command tree][2] to play around
-> 3. [*How to Write Go Code*][3]
-> 4. [*Effective go*][4]
-> 5. Start reading [*Go 101*][5] concurrently (600 pages)
+> 3. [How to Write Go Code][3]
+> 4. [Effective go][4] (to understand *why*)
+> 5. Start reading [Go 101][5] concurrently (600 pages)
 > 6. Code some concurrency with `net/http`, contexts, and `html/template`
-> 7. *The Go Programming Language Specification* to fill any gap
-> 8. Read and learn from the Go standard library source code
+> 7. [The Go Programming Language Specification][5] to fill any gap
+> 8. Read and learn from the [Go standard library][6] source code
 >
 > 💥 It is really important you get coding something you *want* to make,
 > a project, as soon as possible. That will keep you motivated to learn.
@@ -27,6 +27,7 @@
 [3]: <https://golang.org/doc/code.html>
 [4]: <https://golang.org/doc/effective_go.html>
 [5]: <https://golang.org/ref/spec>
+[6]: <https://pkg.go.dev/std>
 
 And ...
 
