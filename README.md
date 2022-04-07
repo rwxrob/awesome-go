@@ -1,6 +1,6 @@
 # My Personal "Awesome" Go List
 
-> 🎉 Just learning Go? Never coded before? welcome to the party! Here's
+> 🎉 Just learning Go? Never coded before? Welcome to the party! Here's
 > what I recommend most people do to learn it well. (Note that I do not
 > list non-free resources, ever, but you can always support these
 > financially if you choose):
