@@ -5,15 +5,16 @@
 > list non-free resources, ever, but you can always support these
 > financially if you choose):
 >
-> 0. Do the [Beginner Boost™][0] every year (we cover latest Go)
+> 0. Do the [Beginner Boost™][0] (every year) (since 2022, we cover Go)
 > 1. [Tour of Go][1] (no setup, get coding, okay not to finish)
 > 2. Start a personal [Bonzai™ command tree][2] to play around
 > 3. [How to Write Go Code][3]
 > 4. [Effective go][4] (to understand *why*)
 > 5. Start reading [Go 101][5] concurrently (600 pages)
 > 6. Code some concurrency with `net/http`, contexts, and `html/template`
-> 7. [The Go Programming Language Specification][5] to fill any gap
-> 8. Read and learn from the [Go standard library][6] source code
+> 7. Read [Go Code Review Comments][7] for style guide and gotchas
+> 8. [The Go Programming Language Specification][5] to fill any gap
+> 9. Read and learn from the [Go standard library][6] source code 
 >
 > 💥 It is really important you get coding something you *want* to make,
 > a project, as soon as possible. That will keep you motivated to learn.
@@ -28,6 +29,7 @@
 [4]: <https://golang.org/doc/effective_go.html>
 [5]: <https://golang.org/ref/spec>
 [6]: <https://pkg.go.dev/std>
+[7]: <https://github.com/golang/go/wiki/CodeReviewComments>
 
 And ...
 
@@ -206,8 +208,6 @@ that isn't 100% relevant to modern Go 1.18+ and available for free
   moment to consider what they write before posting toxic crap (unlike
   Reddit and Discord, etc.)
 
-* **Go Code Review Comments**
-  <https://github.com/golang/go/wiki/CodeReviewComments>
 
 * **Beej's Guide to Network Programming**
   <https://beej.us/guide/bgnet/>
