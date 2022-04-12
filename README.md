@@ -109,6 +109,14 @@ to them, not the randomness of the conditions in which a person is born.
   preferred local editor; includes high-level `pkg` for use without
   `bonzai`
 
+* 🌳 **Common Web Requests**  
+  https://github.com/rwxrob/web
+
+  Drop-dead simple web requests with a strong high-level function `pkg`
+  as well; never miss `curl` again; (eventually, planned to take the
+  place of `lynx` for terminal based web browsing as well, built with
+  `tview`)
+
 * **Buffered Rune Scanner**  
   https://github.com/rwxrob/scan
 
