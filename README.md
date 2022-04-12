@@ -46,10 +46,23 @@ two purposes:
 Disclosure: I actually sponsor some of these with my own cash. They are
 really that good.
 
+## No-Cost, Non-Restrictive
+
+Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3
+and personally share Linus Torvalds opinion that it destroyed the FSF.
+
+I also won't list anything here that has a paywall of any kind,
+including books you have to purchase without a free version. Not
+everyone in the world can find the money to pay American prices for
+things. Holding knowledge behind a paywall that is based on the economy
+of your particularly affluent country is unethical. I won't do it.
+People can pay what they can for content I produce. That decision is up
+to them, not the randomness of the conditions in which a person is born.
+
 ## My Own Stuff
 
 * 🌳 **Go Bonzai™ Composite Commander**  
-  ([rwxrob/bonzai](https://github.com/rwxrob/bonzai))
+  https://github.com/rwxrob/bonzai
 
   A truly unique commander with recursive tab completion (without
   exporting shell code), command aliases, multicall or monolith mode,
@@ -59,7 +72,7 @@ really that good.
   local YAML caching
 
 * 🌳 **Personal Bonzai Command Tree Monolith**  
-  ([rwxrob/z](https://github.com/rwxrob/z))
+  https://github.com/rwxrob/z
 
   My meticulously manicured monolith (`z`) command (which I use
   *constantly*) and easily copy to *any* system so I have all my
@@ -71,7 +84,7 @@ really that good.
   Bonzai root-kit monolith
 
 * 🌳 **Help Docs with Templates, Like `man` Pages**  
-  ([rwxrob/help](https://github.com/rwxrob/help)
+  https://github.com/rwxrob/help
 
   Bundle your documentation with your Bonzai branch or tree with
   `help.Cmd`; supports BonzaiMark, CommonMark templates
@@ -79,7 +92,7 @@ really that good.
   Hugo for terminal apps
 
 * 🌳 **Persist Variables to Portable Local Cache**  
-  ([rwxrob/help](https://github.com/rwxrob/vars)
+  https://github.com/rwxrob/vars
 
   Better than environment variables; add scoped, persistent variables to
   any of your Bonzai branch or tree; .key=value properties value form
@@ -88,7 +101,7 @@ really that good.
   without `bonzai`
 
 * 🌳 **Local Configuration Management with YAML/JSON**  
-  ([rwxrob/conf](https://github.com/rwxrob/conf))
+  https://github.com/rwxrob/conf
 
   Built on the highly popular and performant yaml.v3 and
   [yqlib](https://github.com/rwxrob/yq); add persistent, manageable
@@ -97,32 +110,32 @@ really that good.
   `bonzai`
 
 * **Buffered Rune Scanner**  
-  ([rwxrob/scan](https://github.com/rwxrob/scan))
+  https://github.com/rwxrob/scan
 
   A simple, highly performant buffered rune scanner; optimized for
   infinite lookahead/behind; designed with grammar creation in mind;
   optional trace logs to help debug complex scans
 
 * **Functional Programming with Go Generics**  
-  ([rwxrob/fn](https://github.com/rwxrob/fn))
+  https://github.com/rwxrob/fn
 
   My own collection of map/filter/reduce/each-like things; great for
   rapid (replacing shell scripts) development; includes a terse `fn.A`
   functional array type, library of map functions (`mapf`), map
   transformations (`maps`), and UNIX filters (`filt`); (also see
-  [samber/lo](https://github.com/samber/lo))
+  https://github.com/samber/lo
 
 * **File and Directory Utilities**  
-  ([rwxrob/fs](https://github.com/rwxrob/fs))
+  https://github.com/rwxrob/fs
 
   Supplements the standard filesystem functions with simplifications and
   extras that make rapid application development slightly less annoying
   in Go; be sure to use `lockedfile` from
-  [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) for
+  https://github.com/rogpeppe/go-internal) for
   system-wide file locking
 
 * **JSON Done Right with Remote Source Marshaling**  
-  ([rwxrob/json](https://github.com/rwxrob/json))
+  https://github.com/rwxrob/json
 
   Fixes the very broken defaults in `encoding/json`; includes `AsJSON`
   interface; unmarshaling JSON directly from web via HTTP requests into
@@ -130,7 +143,7 @@ really that good.
   `inline` (learned from the Kind project)
 
 * **Marshal Anything as YAML**  
-  ([rwxrob/yaml](https://github.com/rwxrob/yaml))
+  https://github.com/rwxrob/yaml
 
   A personal commitment to first marshal everything in YAML since
   yaml.v3 is so superior to anything available for JSON --- especially
@@ -139,44 +152,44 @@ really that good.
   consuming web APIs, however.
 
 * **VT100 ANSI Terminal Utilities**  
-  ([rwxrob/term](https://github.com/rwxrob/term))
+  https://github.com/rwxrob/term
 
   VT100 ANSI terminal escapes; no wasteful function calls just to change
   colors or terminal state; interactive terminal detection; window size
   queries; read visible and hidden user input
 
 * **Converter Utility Functions**  
-  ([rwxrob/to](https://github.com/rwxrob/to))
+  https://github.com/rwxrob/to
 
   Transformations I find myself doing so much that they warrant their
   own `to` package module; string -> lines, etc.
 
 * **Hybrid Data Structures with Generics**  
-  ([rwxrob/structs](https://github.com/rwxrob/structs))
+  https://github.com/rwxrob/structs
 
   I use this everywhere. Having proper data structures is main reason I
   maintain a [Bonzai command tree](https://github.com/rwxrob/z) instead
   of a bunch of shell scripts. `qstack` is usually better than Go slices
   for most applications; `tree` is perfect for making ASTs and domain
   specific language parsing combined with
-  [scan](https://github.com/rwxrob/scan)
+  https://github.com/rwxrob/scan)
 
 * 🌳 **Universal Unique Identifiers**  
-  ([rwxrob/uniq](https://github.com/rwxrob/uniq))
+  https://github.com/rwxrob/uniq
 
   The usual universal unique identifiers: `uuid`, `isosec`, `epoch`,
   `base32`, `hex`; includes high-level `pkg` library; essential for
   cobbling together flat-file data stores, etc.
 
 * 🌳 **YAML to JSON Converter**  
-  ([rwxrob/y2j](https://github.com/rwxrob/y2j))
+  https://github.com/rwxrob/y2j
 
   YAML to JSON conversion without the unnecessary `encoding/json`
   escapes (see rwxrob/json above); includes `pkg` with high-level
   `Convert` function
 
 * 🌳 **Popular YAML Query Utility**  
-  ([rwxrob/yq](https://github.com/rwxrob/yq))
+  https://github.com/rwxrob/yq
 
   This is a duplicate of the `yq` tool (with the same `yqlib`
   dependency); includes `pkg` with high-level `Evaluate` and
@@ -185,34 +198,46 @@ really that good.
 
 ## Other Awesome Stuff
 
-* [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
-  for text terminals, favorite library for creating terminal apps
+* **Tcell, Best Go Terminal Low-Level Library**  
+  https://github.com/gdamore/tcell
 
-* [rivo/tview](https://github.com/rivo/tview) - bet terminal user
-  interface (TUI) library, it's like having CSS in your terminal (but
-  not), makes short work of terminal applications that need regularly
-  used widgets, used by K9S
+  Pure-Go terminal "cell" (curses) library for text terminals; best in
+  class at the moment
 
-* [samber/lo](https://github.com/samber/lo) - lodash in Go 1.18 that's 7
-  times faster than equivalents using reflection
+* **Tview, Best Go Terminal User Interface Library**  
+  https://github.com/rivo/tview  
+  https://code.rocketnine.space/tslocum/cview  
 
-* [cavaliercoder/grab](https://github.com/cavaliercoder/grab) - highly
-  concurrent downloads with status updates in Go
+  It's like having CSS in your terminal (but not); makes short work of
+  terminal applications that need regularly used widgets, used by K9S
+  and others; `cview`, a forked version, is also good
 
-* [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) - home
-  of `lockedfile` (proposed standard addition), the only one anyone
-  should use for *truly* safe writes to a file on all operating systems
-  (hint: you're probably doing it wrong, creating a "lock" file is never
-  enough)); this is currently how `go` binary handles system-wide file
-  read/write locking
+* **Lodash in Go**  
+  https://github.com/samber/lo
 
-* [protocolbuffers/protobuf][] - home of Protobuf, the world's best
-  mainstream way to communicate with an emphasis on performance, YAML
-  for configurations, Protobuf for everything else, that's where things
-  are going
+  If you are into `lodash` (from Node, I never was) you can try this;
+  good for getting Go 1.18 ideas; seven times faster than equivalents
+  using Go reflection
 
-[protocolbuffers/protobuf]: <https://github.com/protocolbuffers/protobuf>
+* **Grab, Highly Concurrent Downloads with Status**  
+  https://github.com/cavaliercoder/grab
 
+  When you need really good download ability
+
+* **Only Truly Safe Way to Write a File in Go**  
+  https://github.com/rogpeppe/go-internal
+
+  The internal libraries used by the `go` binary itself; home of
+  `lockedfile` (proposed standard addition); *truly* safe writes to a
+  file on all operating systems; (You're probably doing it wrong.
+  Creating a "lock" file is never enough.)
+
+* **Protobuf Performant Serialization**  
+  https://github.com/protocolbuffers/protobuf
+
+  Best of breed way to turn a struct into a data stream or file and
+  parse it (unmarshal) it back into a struct later; basis of gRPC and
+  most Kubernetes communication; replaces JSON APIs for most things
 
 ## Learning Resources
 
@@ -221,21 +246,20 @@ woefully out of date. Just be really careful. Nothing goes on this this
 that isn't 100% relevant to modern Go 1.18+ and available for free
 (although I encourage you to support them the best you can).
 
-* **Go-Nuts USENET Newsgroup.**
-  <https://groups.google.com/g/golang-nuts>
+* **Go-Nuts USENET Newsgroup.**  
+  https://groups.google.com/g/golang-nuts
 
   This is where the creators and Go project leaders are regularly
   answering questions and discussing the direction of the language. This
   resource is far better than Reddit and even the official Go Discord
-  channel (which you can find from <https://go.dev>). Keep in mind that
+  channel (which you can find from https://go.dev). Keep in mind that
   anything ever written here is permanently saved, forever. I prefer
   this because all submissions are moderated and people actually take a
   moment to consider what they write before posting toxic crap (unlike
   Reddit and Discord, etc.)
 
-
-* **Beej's Guide to Network Programming**
-  <https://beej.us/guide/bgnet/>
+* **Beej's Guide to Network Programming**  
+  https://beej.us/guide/bgnet
 
   The book is in C, but so much of Go programming overlaps with that
   domain --- especially with microservices --- that reading this book
@@ -244,8 +268,8 @@ that isn't 100% relevant to modern Go 1.18+ and available for free
   design concerns that most people coming to coding from academia or
   otherwise just won't think about intuitively.
 
-* **Why Go and Not Rust**
-  <https://kristoff.it/blog/why-go-and-not-rust/>
+* **Why Go and Not Rust**  
+  https://kristoff.it/blog/why-go-and-not-rust
 
   This is a very stoic and objective look (not my personal writing
   style) at why Go is *the* language of enterprise and cloud-native
@@ -259,8 +283,8 @@ that isn't 100% relevant to modern Go 1.18+ and available for free
   extension, why there are tons of jobs for Go and almost zero for Rust
   developers.
 
-* Protocol Buffers  
-  <https://developers.google.com/protocol-buffers/>
+* **Protocol Buffers**  
+  https://developers.google.com/protocol-buffers
 
   Protobuf format is mandatory learning for any serious Go developer
   wanting to get into microservices or anything that communicates or
