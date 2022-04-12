@@ -48,7 +48,7 @@ really that good.
 
 ## My Own Stuff
 
-* 🌳 **Go Bonzai™ Composite Commander**
+* 🌳 **Go Bonzai™ Composite Commander**  
   ([rwxrob/bonzai](https://github.com/rwxrob/bonzai))
 
   A truly unique commander with recursive tab completion (without
@@ -58,7 +58,7 @@ really that good.
   dates, calculator), localized, modular configuration management, fast
   local YAML caching
 
-* 🌳 **Personal Bonzai Command Tree Monolith**
+* 🌳 **Personal Bonzai Command Tree Monolith**  
   ([rwxrob/z](https://github.com/rwxrob/z))
 
   My meticulously manicured monolith (`z`) command (which I use
@@ -70,7 +70,7 @@ really that good.
   or without Docker (even in a K8S pod); possible companion to a Go
   Bonzai root-kit monolith
 
-* 🌳 **Help Docs with Templates, Like `man` Pages**
+* 🌳 **Help Docs with Templates, Like `man` Pages**  
   ([rwxrob/help](https://github.com/rwxrob/help)
 
   Bundle your documentation with your Bonzai branch or tree with
@@ -78,7 +78,7 @@ really that good.
   (`text/template`) with full set of common template functions; like
   Hugo for terminal apps
 
-* 🌳 **Persist Variables to Portable Local Cache**
+* 🌳 **Persist Variables to Portable Local Cache**  
   ([rwxrob/help](https://github.com/rwxrob/vars)
 
   Better than environment variables; add scoped, persistent variables to
@@ -87,7 +87,7 @@ really that good.
   standard user cache location; includes high-level `pkg` for use
   without `bonzai`
 
-* 🌳 **Local Configuration Management with YAML/JSON**
+* 🌳 **Local Configuration Management with YAML/JSON**  
   ([rwxrob/conf](https://github.com/rwxrob/conf))
 
   Built on the highly popular and performant yaml.v3 and
@@ -96,14 +96,14 @@ really that good.
   preferred local editor; includes high-level `pkg` for use without
   `bonzai`
 
-* **Buffered Rune Scanner**
+* **Buffered Rune Scanner**  
   ([rwxrob/scan](https://github.com/rwxrob/scan))
 
   A simple, highly performant buffered rune scanner; optimized for
   infinite lookahead/behind; designed with grammar creation in mind;
   optional trace logs to help debug complex scans
 
-* **Functional Programming with Go Generics**
+* **Functional Programming with Go Generics**  
   ([rwxrob/fn](https://github.com/rwxrob/fn))
 
   My own collection of map/filter/reduce/each-like things; great for
@@ -112,7 +112,7 @@ really that good.
   transformations (`maps`), and UNIX filters (`filt`); (also see
   [samber/lo](https://github.com/samber/lo))
 
-* **File and Directory Utilities**
+* **File and Directory Utilities**  
   ([rwxrob/fs](https://github.com/rwxrob/fs))
 
   Supplements the standard filesystem functions with simplifications and
@@ -121,7 +121,7 @@ really that good.
   [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) for
   system-wide file locking
 
-* **JSON Done Right with Remote Source Marshaling**
+* **JSON Done Right with Remote Source Marshaling**  
   ([rwxrob/json](https://github.com/rwxrob/json))
 
   Fixes the very broken defaults in `encoding/json`; includes `AsJSON`
@@ -129,7 +129,7 @@ really that good.
   any type that can be passed to `json.Unmarshal` by leveraging yaml.v3
   `inline` (learned from the Kind project)
 
-* **Marshal Anything as YAML**
+* **Marshal Anything as YAML**  
   ([rwxrob/yaml](https://github.com/rwxrob/yaml))
 
   A personal commitment to first marshal everything in YAML since
@@ -138,20 +138,20 @@ really that good.
   all the performant data serialization things. JSON is unavoidable when
   consuming web APIs, however.
 
-* **VT100 ANSI Terminal Utilities**
+* **VT100 ANSI Terminal Utilities**  
   ([rwxrob/term](https://github.com/rwxrob/term))
 
   VT100 ANSI terminal escapes; no wasteful function calls just to change
   colors or terminal state; interactive terminal detection; window size
-  queries; read visible and hidden user input 
+  queries; read visible and hidden user input
 
-* **Converter Utility Functions**
+* **Converter Utility Functions**  
   ([rwxrob/to](https://github.com/rwxrob/to))
 
   Transformations I find myself doing so much that they warrant their
   own `to` package module; string -> lines, etc.
 
-* **Hybrid Data Structures with Generics**
+* **Hybrid Data Structures with Generics**  
   ([rwxrob/structs](https://github.com/rwxrob/structs))
 
   I use this everywhere. Having proper data structures is main reason I
@@ -161,21 +161,21 @@ really that good.
   specific language parsing combined with
   [scan](https://github.com/rwxrob/scan)
 
-* 🌳 **Universal Unique Identifiers**
+* 🌳 **Universal Unique Identifiers**  
   ([rwxrob/uniq](https://github.com/rwxrob/uniq))
 
   The usual universal unique identifiers: `uuid`, `isosec`, `epoch`,
   `base32`, `hex`; includes high-level `pkg` library; essential for
   cobbling together flat-file data stores, etc.
 
-* 🌳 **YAML to JSON Converter**
+* 🌳 **YAML to JSON Converter**  
   ([rwxrob/y2j](https://github.com/rwxrob/y2j))
 
   YAML to JSON conversion without the unnecessary `encoding/json`
   escapes (see rwxrob/json above); includes `pkg` with high-level
   `Convert` function
 
-* 🌳 **Popular YAML Query Utility**
+* 🌳 **Popular YAML Query Utility**  
   ([rwxrob/yq](https://github.com/rwxrob/yq))
 
   This is a duplicate of the `yq` tool (with the same `yqlib`
