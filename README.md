@@ -64,12 +64,12 @@ to them, not the randomness of the conditions in which a person is born.
 * 🌳 **Go Bonzai™ Composite Commander**  
   https://github.com/rwxrob/bonzai
 
-  A truly unique commander with recursive tab completion (without
-  exporting shell code), command aliases, multicall or monolith mode,
-  rich embedded command documentation (markdown, formatted, pager-aware,
-  color, interactive terminal detection), library of completers (files,
-  dates, calculator), localized, modular configuration management, fast
-  local YAML caching
+  A truly unique commander with recursive tab completion; no exported
+  shell code required for completion; command aliases; multicall or
+  monolith mode; rich embedded command documentation with markdown and
+  templating; library of completers (files, dates, calculator);
+  localized, modular configuration management; persisted variables to
+  user local cache
 
 * 🌳 **Personal Bonzai Command Tree Monolith**  
   https://github.com/rwxrob/z
