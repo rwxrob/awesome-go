@@ -61,22 +61,42 @@ really that good.
 * 🌳 **Personal Bonzai Command Tree Monolith**
   ([rwxrob/z](https://github.com/rwxrob/z))
 
-  My meticulously manicured `z` command (which I use *constantly*) and
-  easily copy to *any* system so I have all my favorite "scripts";
-  replacement for my [dot](https://github.com/rwxrob/dot) scripts
-  collection; goal is to be 100% script free by 2023 (that rhymed); will
-  integrate with workspace-container to get my environment up anywhere
-  in seconds, with or without Docker (even in a K8S pod); possible
-  companion to a Go Bonzai root-kit monolith
+  My meticulously manicured monolith (`z`) command (which I use
+  *constantly*) and easily copy to *any* system so I have all my
+  favorite "scripts"; replacement for my
+  [dot](https://github.com/rwxrob/dot) scripts collection; goal is to be
+  100% script free by 2023 (that rhymed); will integrate with
+  workspace-container to get my environment up anywhere in seconds, with
+  or without Docker (even in a K8S pod); possible companion to a Go
+  Bonzai root-kit monolith
 
-* 🌳 **Local Config Management with YAML**
-  ([rwxrob/config](https://github.com/rwxrob/config))
+* 🌳 **Help Docs with Templates, Like `man` Pages**
+  ([rwxrob/help](https://github.com/rwxrob/help)
 
-  Bonzai branch for universal YAML configuration management; default
-  `Configurer` for all `bonzai.Cmds`; includes `yq` expressions and
-  pathing
+  Bundle your documentation with your Bonzai branch or tree with
+  `help.Cmd`; supports BonzaiMark, CommonMark templates
+  (`text/template`) with full set of common template functions; like
+  Hugo for terminal apps
 
-* **Universal Rune Scanner with scan.X Expressions**
+* 🌳 **Persist Variables to Portable Local Cache**
+  ([rwxrob/help](https://github.com/rwxrob/vars)
+
+  Better than environment variables; add scoped, persistent variables to
+  any of your Bonzai branch or tree; .key=value properties value form
+  for fastest-possible parsing (way faster than YAML/JSON; single file;
+  standard user cache location; includes high-level `pkg` for use
+  without `bonzai`
+
+* 🌳 **Local Configuration Management with YAML/JSON**
+  ([rwxrob/conf](https://github.com/rwxrob/conf))
+
+  Built on the highly popular and performant yaml.v3 and
+  [yqlib](https://github.com/rwxrob/yq); add persistent, manageable
+  configuration to any Bonzai branch or tree; single file; edit with
+  preferred local editor; includes high-level `pkg` for use without
+  `bonzai`
+
+* **Buffered Rune Scanner**
   ([rwxrob/scan](https://github.com/rwxrob/scan))
 
   A simple, highly performant buffered rune scanner; optimized for
@@ -101,21 +121,22 @@ really that good.
   [rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) for
   system-wide file locking
 
-* **JSON Done Right with AsJSON Interface and Remote Source Marshaling**
+* **JSON Done Right with Remote Source Marshaling**
   ([rwxrob/json](https://github.com/rwxrob/json))
 
-  Fixes the very broken defaults in `encoding/json`; includes
-  unmarshaling JSON directly from web via HTTP requests into any type
-  that can be passed to `json.Unmarshal` by leveraging yaml.v3 `inline`
-  (learned from the Kind project)
+  Fixes the very broken defaults in `encoding/json`; includes `AsJSON`
+  interface; unmarshaling JSON directly from web via HTTP requests into
+  any type that can be passed to `json.Unmarshal` by leveraging yaml.v3
+  `inline` (learned from the Kind project)
 
-* **Marshal Anything as YAML with AsYAML Interface**
+* **Marshal Anything as YAML**
   ([rwxrob/yaml](https://github.com/rwxrob/yaml))
 
   A personal commitment to first marshal everything in YAML since
   yaml.v3 is so superior to anything available for JSON --- especially
   `yaml:",inline"`. I prefer to YAML all the config things and Protobuf
-  all the performant data serialization things.
+  all the performant data serialization things. JSON is unavoidable when
+  consuming web APIs, however.
 
 * **VT100 ANSI Terminal Utilities**
   ([rwxrob/term](https://github.com/rwxrob/term))
@@ -133,9 +154,12 @@ really that good.
 * **Hybrid Data Structures with Generics**
   ([rwxrob/structs](https://github.com/rwxrob/structs))
 
-  List, set, stack, node, tree, etc. implemented with rapid applications
-  development (replacing shell scripts) as design priority; used in most
-  other applications listed here --- especially `qstack` and `tree`.
+  I use this everywhere. Having proper data structures is main reason I
+  maintain a [Bonzai command tree](https://github.com/rwxrob/z) instead
+  of a bunch of shell scripts. `qstack` is usually better than Go slices
+  for most applications; `tree` is perfect for making ASTs and domain
+  specific language parsing combined with
+  [scan](https://github.com/rwxrob/scan)
 
 * 🌳 **Universal Unique Identifiers**
   ([rwxrob/uniq](https://github.com/rwxrob/uniq))
@@ -151,22 +175,23 @@ really that good.
   escapes (see rwxrob/json above); includes `pkg` with high-level
   `Convert` function
 
-* 🌳 **Popular YAML Query Utility without Cobra**
+* 🌳 **Popular YAML Query Utility**
   ([rwxrob/yq](https://github.com/rwxrob/yq))
 
   This is a duplicate of the `yq` tool (with the same `yqlib`
   dependency); includes `pkg` with high-level `Evaluate` and
   `EvaluateToString` functions with reasonable defaults; can be called
-  from other Bonzai commands 
+  from other Bonzai commands; dropped Cobra dependency
 
 ## Other Awesome Stuff
 
 * [gdamore/tcell](https://github.com/gdamore/tcell) - cell-based view
   for text terminals, favorite library for creating terminal apps
 
-* [rivo/tview](https://github.com/rivo/tview) - it's like having CSS in
-  your terminal (but not), makes short work of terminal applications
-  that need regularly used widgets
+* [rivo/tview](https://github.com/rivo/tview) - bet terminal user
+  interface (TUI) library, it's like having CSS in your terminal (but
+  not), makes short work of terminal applications that need regularly
+  used widgets, used by K9S
 
 * [samber/lo](https://github.com/samber/lo) - lodash in Go 1.18 that's 7
   times faster than equivalents using reflection
