@@ -10,7 +10,7 @@
 > 2. Start a personal [Bonzai™ command tree][2] to play around
 > 3. [How to Write Go Code][3]
 > 4. [Effective go][4] (to understand *why*)
-> 5. Start reading [Go 101][5] concurrently (600 pages)
+> 5. Start reading [Go 101][8] concurrently (600 pages)
 > 6. Code something with concurrency (`net/http`, contexts)
 > 7. Read [Go Code Review Comments][7] for style guide
 > 8. [The Go Programming Language Specification][5] to fill any gap
@@ -24,12 +24,13 @@
  
 [0]: <https://github.com/rwxrob/boost>
 [1]: <http://go.dev/tour>
-[2]: <https://github.com/rwxrob/foo>
+[2]: <https://github.com/rwxrob/bonzai-example>
 [3]: <https://golang.org/doc/code.html>
 [4]: <https://golang.org/doc/effective_go.html>
 [5]: <https://golang.org/ref/spec>
 [6]: <https://pkg.go.dev/std>
 [7]: <https://github.com/golang/go/wiki/CodeReviewComments>
+[8]: https://go101.org/article/101.html
 
 And ...
 
@@ -71,17 +72,25 @@ to them, not the randomness of the conditions in which a person is born.
   localized, modular configuration management; persisted variables to
   user local cache
 
+* 🌳 **Go Bonzai™ Composite Command Example**  
+  https://github.com/rwxrob/bonzai-example
+
+  A GitHub template you can copy and get started with creating your own
+  monoliths and multicall binaries composed of your favorite Bonzai
+  branches
+
 * 🌳 **Personal Bonzai Command Tree Monolith**  
   https://github.com/rwxrob/z
 
-  My meticulously manicured monolith (`z`) command (which I use
-  *constantly*) and easily copy to *any* system so I have all my
-  favorite "scripts"; replacement for my
-  [dot](https://github.com/rwxrob/dot) scripts collection; goal is to be
-  100% script free by 2023 (that rhymed); will integrate with
-  workspace-container to get my environment up anywhere in seconds, with
-  or without Docker (even in a K8S pod); possible companion to a Go
-  Bonzai root-kit monolith
+  My own meticulously manicured monolith (my `z` command) that I use
+  hundreds of times a day. It's becoming almost like a BusyBox Linux
+  distro as more branches are added to it. Everything I write now is a
+  Bonzai branch with a standalone, a high-level function library, and a
+  composable branch Cmd. I can easily copy my `z` to *any* system so I
+  have all my favorite "scripts" --- including bundled configurations
+  for `vim`, `tmux`, `lynx` and such
+  ([dot](https://github.com/rwxrob/dot)). By 2023, I hope to be 100%
+  script free. 
 
 * 🌳 **Help Docs with Templates, Like `man` Pages**  
   https://github.com/rwxrob/help
