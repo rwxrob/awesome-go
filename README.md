@@ -215,6 +215,12 @@ to them, not the randomness of the conditions in which a person is born.
 
 ## Other Awesome Stuff
 
+* **`jq` in Pure Go**
+  https://github.com/itchyny/gojq/
+
+  This is used in the world-class, absolutely amazing `gh` GitHub
+  command line utility (and is the basis for the `jq` Bonzai branch)
+
 * **Tcell, Best Go Terminal Low-Level Library**  
   https://github.com/gdamore/tcell
 
