@@ -149,7 +149,25 @@ to them, not the randomness of the conditions in which a person is born.
   extras that make rapid application development slightly less annoying
   in Go; be sure to use `lockedfile` from
   https://github.com/rogpeppe/go-internal) for
-  system-wide file locking
+  system-wide file locking. Includes extracting and caching `embed.FS`
+  file systems.
+
+* **Embed and Encapsulate Java JAR, Class, Java Files**  
+  https://github.com/rwxrob/java
+
+  Import and use Java directly into Go programs by embedding Java
+  artifacts and extracting and caching them deterministically so that
+  the only dependency is `java` on the system running the Go code. Make
+  quick work of distributing Java applications with `go install`. Used
+  to encapsulate the OpenAPITools generator.
+
+* 🌳 **Java OpenAPI Generator Encapsulated in Go**  
+  https://github.com/rwxrob/openapi
+
+  This Bonzai branch includes the latest `openapi-generator-cli`
+  embedded and cached within it along with an optional Dockerfile for
+  building a container to work with OpenAPI 3.0 specifications and code
+  and documentation generation.
 
 * **JSON Done Right with Remote Source Marshaling**  
   https://github.com/rwxrob/json
