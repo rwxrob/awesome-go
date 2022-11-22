@@ -198,6 +198,11 @@ to them, not the randomness of the conditions in which a person is born.
 
   Includes sample fmt.Stringer implementation for different struct types.
 
+* **Slug generator**  
+  https://github.com/rwxrob/slug
+
+  Best of breed slug generation encapsulating the very popular simplego/slug.
+
 * **Converter Utility Functions**  
   https://github.com/rwxrob/to
 
