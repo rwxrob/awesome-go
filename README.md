@@ -126,6 +126,11 @@ to them, not the randomness of the conditions in which a person is born.
   place of `lynx` for terminal based web browsing as well, built with
   `tview`)
 
+* 🌳 **KEG, Knowledge Exchange Graph PKG Utility**  
+  https://github.com/rwxrob/keg
+
+  Rethinking knowledge management and the Web from the perspective of lessons learned from software development over the last two decades. Provides lightning fast mind-mapping, creative zettelkasten note taking, indexing, publishing, and sharing with the KEG community of your choosing in any number of ways. If you love the command line, and need a CLI mind-mapping tool that works to produce GitHub compatible files and expands into full publications then you should really have a look.
+
 * **Buffered Rune Scanner**  
   https://github.com/rwxrob/scan
 
