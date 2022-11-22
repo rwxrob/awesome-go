@@ -193,6 +193,11 @@ to them, not the randomness of the conditions in which a person is born.
   colors or terminal state; interactive terminal detection; window size
   queries; read visible and hidden user input
 
+* **Bash `select` for Generic Slices**  
+  https://github.com/rwxrob/choose
+
+  Includes sample fmt.Stringer implementation for different struct types.
+
 * **Converter Utility Functions**  
   https://github.com/rwxrob/to
 
