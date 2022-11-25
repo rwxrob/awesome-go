@@ -8,7 +8,7 @@
 > 1. [Tour of Go][1] (no setup, get coding, okay not to finish)
 > 2. Start a personal [Bonzai™ command tree][2] to play around
 > 3. [How to Write Go Code][3]
-> 4. [Effective go][6] (to understand *why*)
+> 4. [Effective go][4] (to understand *why*)
 > 5. Start reading [Go 101][8] concurrently (600 pages)
 > 6. Code something with concurrency (`net/http`, contexts)
 > 7. Read [Go Code Review Comments][7] for style guide
