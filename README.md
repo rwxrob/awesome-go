@@ -5,7 +5,6 @@
 > list non-free resources, ever, but you can always support these
 > financially if you choose):
 >
-> 0. Do the [Beginner Boost™][0] (every year)
 > 1. [Tour of Go][1] (no setup, get coding, okay not to finish)
 > 2. Start a personal [Bonzai™ command tree][2] to play around
 > 3. [How to Write Go Code][3]
@@ -15,6 +14,7 @@
 > 7. Read [Go Code Review Comments][7] for style guide
 > 8. [The Go Programming Language Specification][5] to fill any gap
 > 9. Read and learn from the [Go standard library][6] source code
+> 10. Maybe read [Learning Go][9]
 >
 > 💥 It is really important you get coding something you *want* to make,
 > a project, as soon as possible. That will keep you motivated to learn.
@@ -22,7 +22,6 @@
 > books. But, by the time you read all of that, while coding at the same
 > time, you'll be on your way to becoming a Go master for sure.
  
-[0]: <https://github.com/rwxrob/boost>
 [1]: <http://go.dev/tour>
 [2]: <https://github.com/rwxrob/bonzai-example>
 [3]: <https://golang.org/doc/code.html>
@@ -30,7 +29,8 @@
 [5]: <https://golang.org/ref/spec>
 [6]: <https://pkg.go.dev/std>
 [7]: <https://github.com/golang/go/wiki/CodeReviewComments>
-[8]: https://go101.org/article/101.html
+[8]: <https://go101.org/article/101.html>
+[9]: <https://www.oreilly.com/library/view/learning-go/9781492077206/>
 
 And ...
 
