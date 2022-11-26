@@ -1,6 +1,6 @@
 # My Personal "Awesome" Go List
 
-🎉 Just learning Go? Never coded before? Welcome to the party! Here's what I recommend most people do to learn it well. (Note that I do not list non-free resources, ever, but you can always support these financially if you choose):
+🎉 Just learning Go? Never coded before? Welcome to the party! Here's what I recommend most people do to learn it well.
 
  1.  [Tour of Go][1] (no setup, get coding, okay not to finish)
  2.  [How to Write Go Code][3]
@@ -10,7 +10,7 @@
  6.  Read [Go Code Review Comments][7] for style guide
  7.  [The Go Programming Language Specification][5] to fill any gap
  8.  Read and learn from the [Go standard library][6] source code
- 9.  Maybe read [Learning Go][9]
+ 9.  Maybe read [Learning Go][9] (but you'll have to buy it)
  10. Start a personal [Bonzai™ command tree][2] to play around with tools
 
 [1]: <http://go.dev/tour>
@@ -31,7 +31,7 @@ And ...
 
 I'm not a fan of most "awesome" lists. Most of them are full of crap and
 many are more about promoting that crap than anything else. My list has
-two purposes:
+three purposes:
 
 1. Promote my own crap and keep track of it
 2. Easily find awe-inspiring Go 1.18+ code and content
