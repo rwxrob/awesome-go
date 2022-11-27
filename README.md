@@ -91,7 +91,7 @@ to them, not the randomness of the conditions in which a person is born.
   Bundle your documentation with your Bonzai branch or tree with
   `help.Cmd`; supports BonzaiMark, CommonMark templates
   (`text/template`) with full set of common template functions; like
-  Hugo for terminal apps
+  Hugo for terminal apps. Includes pager detection with color support.
 
 * 🌳 **Persist Variables to Portable Local Cache**  
   <https://github.com/rwxrob/vars>
@@ -118,6 +118,14 @@ to them, not the randomness of the conditions in which a person is born.
   as well; never miss `curl` again; (eventually, planned to take the
   place of `lynx` for terminal based web browsing as well, built with
   `tview`)
+
+* 🌳 **GitHub Common Tasks (API)**  
+  <https://github.com/rwxrob/github>
+
+  Just a collection of my personal favorite and most needed GitHub API queries
+  and `gh` wrappers. Most people will want to use the amazing [gh GitHub
+  CLI](https://github.com/cli/cli) instead (which can be extended for most
+  things, just not these). Includes `latest` and release pushing, and more.
 
 * 🌳 **KEG, Knowledge Exchange Graph PKG Utility**  
   <https://github.com/rwxrob/keg>
