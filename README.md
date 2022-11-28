@@ -132,6 +132,11 @@ to them, not the randomness of the conditions in which a person is born.
 
   Rethinking knowledge management and the Web from the perspective of lessons learned from software development over the last two decades. Provides lightning fast mind-mapping, creative zettelkasten note taking, indexing, publishing, and sharing with the KEG community of your choosing in any number of ways. If you love the command line, and need a CLI mind-mapping tool that works to produce GitHub compatible files and expands into full publications then you should really have a look.
 
+* 🌳 **Go Helper Commands and Tasks**  
+  <https://github.com/rwxrob/good>
+
+  Building for multiple targets from `build.yaml` file.
+
 * **Buffered Rune Scanner**  
   <https://github.com/rwxrob/scan>
 
@@ -156,7 +161,7 @@ to them, not the randomness of the conditions in which a person is born.
   in Go; be sure to use `lockedfile` from
   <https://github.com/rogpeppe/go-internal>) for
   system-wide file locking. Includes extracting and caching `embed.FS`
-  file systems.
+  file systems. Includes transactional preservation.
 
 * **Embed and Encapsulate Java JAR, Class, Java Files**  
   <https://github.com/rwxrob/java>
