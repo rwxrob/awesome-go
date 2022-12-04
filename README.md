@@ -137,6 +137,16 @@ to them, not the randomness of the conditions in which a person is born.
 
   Building for multiple targets from `build.yaml` file.
 
+* Easy Date/Time Formats with Duration Spans  
+  <https://github.com/rwxrob/dtime>
+
+  This package makes date and time offsets and durations drop-dead simple to calculate and enter from the command line or just tapped with thumbs into a phone. Uses PEG to define it's grammar (and was the inspiration to create PEGN later).
+
+* Easy Input-Output Test Specifications in YAML  
+  <https://github.com/rwxrob/tinout>
+
+  Designed to make testing a large number of variations kept in a YAML file that also serve as documentation (inspired by the CommonMark specification and testing).
+
 * **Buffered Rune Scanner**  
   <https://github.com/rwxrob/scan>
 
