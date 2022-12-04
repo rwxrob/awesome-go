@@ -314,6 +314,11 @@ to them, not the randomness of the conditions in which a person is born.
   parse it (unmarshal) it back into a struct later; basis of gRPC and
   most Kubernetes communication; replaces JSON APIs for most things
 
+* Glamour, Themed Markdown Rendering for Terminal  
+  <https://github.com/charmbracelet/glamour>
+
+  This is the same used for `gh`.
+
 ## Learning Resources
 
 There are a lot of bad Go learning resources out there. Most of them are
