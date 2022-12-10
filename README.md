@@ -147,6 +147,11 @@ to them, not the randomness of the conditions in which a person is born.
 
   Designed to make testing a large number of variations kept in a YAML file that also serve as documentation (inspired by the CommonMark specification and testing).
 
+* Pure Go secure shell (SSH) functions  
+  <https://github.com/rwxrob/ssh>
+
+  Collection of functions employing the `crypto/ssh` package with sensible defaults enabling pure Go secure shell remote command calls.
+
 * **Buffered Rune Scanner**  
   <https://github.com/rwxrob/scan>
 
@@ -166,12 +171,8 @@ to them, not the randomness of the conditions in which a person is born.
 * **File and Directory Utilities**  
   <https://github.com/rwxrob/fs>
 
-  Supplements the standard filesystem functions with simplifications and
-  extras that make rapid application development slightly less annoying
-  in Go; be sure to use `lockedfile` from
-  <https://github.com/rogpeppe/go-internal>) for
-  system-wide file locking. Includes extracting and caching `embed.FS`
-  file systems. Includes transactional preservation.
+  Supplements the standard filesystem functions with simplifications and extras that make rapid application development slightly less annoying in Go; be sure to use `lockedfile` from <https://github.com/rogpeppe/go-internal>) for system-wide file locking. Includes extracting and caching `embed.FS` file systems. Includes transactional preservation. Includes multipart file
+  marshaling.
 
 * **Embed and Encapsulate Java JAR, Class, Java Files**  
   <https://github.com/rwxrob/java>
