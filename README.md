@@ -320,6 +320,16 @@ to them, not the randomness of the conditions in which a person is born.
 
   This is the same used for `gh`.
 
+* **modernc.org/sqlite**  
+  <https://gitlab.com/cznic/sqlite>
+
+  Package sqlite is a cgo-free port of SQLite. The 20% loss of performance is worth it for most people to have cross-compilation compatibility.
+
+* **SQLX, the Missing SQL Package**  
+  <https://github.com/jmoiron/sqlx>
+
+  Without this `database/sql` is remarkably painful to use.
+
 ## Learning Resources
 
 There are a lot of bad Go learning resources out there. Most of them are
