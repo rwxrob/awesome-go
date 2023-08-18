@@ -137,6 +137,11 @@ to them, not the randomness of the conditions in which a person is born.
 
   Building for multiple targets from `build.yaml` file.
 
+* Fetch string data from common sources  
+  <https://github.com/rwxrob/get>
+
+  This package allows developers to leave the decision about where to store important string data to the end user of their applications. Some users might be okay passing tokens on the command line, or from environment variables while others might require that to be stored in a file, or a remote file secured with ssh. The get package covers these use cases by defining a set of schemas that include just returning the first or last line of a file enabling comments in files as well as log-like last line lookups. Common places to store files (home, .config, .cache) are included. Helper functions cover the common cases of scp-ing large numbers of files in a single command, or capturing the output of a single ssh command.
+
 * Easy Date/Time Formats with Duration Spans  
   <https://github.com/rwxrob/dtime>
 
