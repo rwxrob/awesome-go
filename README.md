@@ -47,12 +47,7 @@ Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3
 and personally share Linus Torvalds opinion that it destroyed the FSF.
 
 I also won't list anything here that has a paywall of any kind,
-including books you have to purchase without a free version. Not
-everyone in the world can find the money to pay American prices for
-things. Holding knowledge behind a paywall that is based on the economy
-of your particularly affluent country is unethical. I won't do it.
-People can pay what they can for content I produce. That decision is up
-to them, not the randomness of the conditions in which a person is born.
+including books you have to purchase without a free version.
 
 ## My Own Stuff
 
