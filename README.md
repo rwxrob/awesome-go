@@ -64,11 +64,11 @@ Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3.
   *any* system so I have all my favorite "scripts" --- including bundled
   configurations for `vi`/`vim`/`nvim`, `tmux`, `lynx` and such
   ([dot](https://github.com/rwxrob/dot)). By 2025, I hope to be 100% script
-  free. 
+  free.
 
 ## Other Awesome Stuff
 
-* **GitHub command line tool helper library**
+* **GitHub command line tool helper library**  
   <https://github.com/cli/go-gh>
 
 * **Tcell, Best Go Terminal Low-Level Library**  
