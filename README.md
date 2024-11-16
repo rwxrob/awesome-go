@@ -15,8 +15,8 @@
 11. Maybe read [Learning Go][9] (but you’ll have to buy it)
 12. Read [100 Go Mistakes and How to Avoid Them][11]
 13. Write a middleware API using any framework
-14. Create a command line tool using Cobra
-15. Create a command line tool using Bonzai
+14. Create a command line tool using Bonzai
+15. Create a command line tool using Cobra
 
 [1]: <http://go.dev/tour>
 [2]: <https://github.com/rwxrob/bonzai>
@@ -46,38 +46,26 @@ Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3.
 
 ## My Own Stuff
 
-* 🌳 **Go Bonzai™ composite commander and CLI toolbox**  
+* 🌳 **Go Bonzai™ CLI framework and library**  
   <https://github.com/rwxrob/bonzai>
 
-  A truly unique commander with recursive tab completion; no exported
+  A truly unique CLI framework with recursive tab completion; no exported
   shell code required for completion; command aliases; multicall or
-  monolith mode; rich embedded command documentation with markdown and
-  templating; library of completers (files, dates, calculator); persisted variables to user local cache; library of "batteries included" commonly needed functions and data structures suitable for learning and porting your shell scripts to a Bonzai home kit monolith instead
-
-* 🌳 **Personal Bonzai Command Tree Monolith**  
-  <https://github.com/rwxrob/z>
-
-  My personal replacement for a bunch of dot files and shell scipts. It's
-  becoming almost like a BusyBox Linux distro as more branches are added to it.
-  Everything I write now is a Bonzai branch with a standalone, a high-level
-  function library, and a composable branch Cmd. I can easily copy my `z` to
-  *any* system so I have all my favorite "scripts" --- including bundled
-  configurations for `vi`/`vim`/`nvim`, `tmux`, `lynx` and such
-  ([dot](https://github.com/rwxrob/dot)). By 2025, I hope to be 100% script
-  free.
+  monolith binaries; rich embedded command documentation with markdown and
+  templating; library of completers (files, dates, calculator); persisted variables to user local cache; library of "batteries included" commonly needed functions and data structures suitable for learning and porting your shell scripts to a Bonzai home kit monolith instead; hackers love it for rootkits
 
 ## Other Awesome Stuff
 
 * **GitHub command line tool helper library**  
   <https://github.com/cli/go-gh>
 
-* **Tcell, Best Go Terminal Low-Level Library**  
+* **Tcell, Go TUI library**  
   <https://github.com/gdamore/tcell>
 
   Pure-Go terminal "cell" (curses) library for text terminals; best in
   class at the moment
 
-* **Tview, Best Go Terminal User Interface Library**  
+* **Tview, Go TUI library**  
   <https://github.com/rivo/tview>  
   <https://code.rocketnine.space/tslocum/cview>
 
@@ -85,12 +73,20 @@ Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3.
   terminal applications that need regularly used widgets, used by K9S
   and others; `cview`, a forked version, is also good
 
+- **Bubbletea, another great TUI library**   
+  <https://github.com/charmbracelet/bubbletea>
+
+* **Glamour, themed Markdown rendering for terminal**  
+  <https://github.com/charmbracelet/glamour>
+
+  This is the same used for `gh`. A little buggy, but good.
+
 * **Grab, Highly Concurrent Downloads with Status**  
   <https://github.com/cavaliercoder/grab>
 
   When you need really good download ability
 
-* **Only Truly Safe Way to Write a File in Go**  
+* **Only safe way to write to a file in any language**  
   <https://github.com/rogpeppe/go-internal>
 
   The internal libraries used by the `go` binary itself; home of
@@ -98,24 +94,19 @@ Everything here is either Apache, BSD, or MIT licensed. I don't do GPLv3.
   file on all operating systems; (You're probably doing it wrong.
   Creating a "lock" file is never enough.)
 
-* **Protobuf Performant Serialization**  
+* **Protobuf performant serialization**  
   <https://github.com/protocolbuffers/protobuf>
 
   Best of breed way to turn a struct into a data stream or file and
   parse it (unmarshal) it back into a struct later; basis of gRPC and
   most Kubernetes communication; replaces JSON APIs for most things
 
-* Glamour, Themed Markdown Rendering for Terminal  
-  <https://github.com/charmbracelet/glamour>
-
-  This is the same used for `gh`.
-
 * **modernc.org/sqlite**  
   <https://gitlab.com/cznic/sqlite>
 
   Package sqlite is a cgo-free port of SQLite. The 20% loss of performance is worth it for most people to have cross-compilation compatibility.
 
-* **SQLX, the Missing SQL Package**  
+* **SQLX, the missing SQL package**  
   <https://github.com/jmoiron/sqlx>
 
   Without this `database/sql` is remarkably painful to use.
@@ -126,6 +117,9 @@ There are a lot of bad Go learning resources out there. Most of them are
 woefully out of date. Just be really careful. Nothing goes on this this
 that isn't 100% relevant to modern Go 1.18+ and available for free
 (although I encourage you to support them the best you can).
+
+- **RWXROB community**  
+  <https://linktr.ee/rwxrob>
 
 * **Go-Nuts USENET Newsgroup.**  
   <https://groups.google.com/g/golang-nuts>
