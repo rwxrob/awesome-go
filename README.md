@@ -1,8 +1,8 @@
 # My Personal "Awesome" Go List
 
-🎉 Just learning Go? Never coded before? Welcome to the party! Here's what I recommend most people do to learn it well.
+🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that there are currently no good resources for first learning how to program at all. These all assume you know what a "loop" is, for example. (I'd like to change that myself eventually.)
 
-1.  [Tour of Go][1] (no setup, get coding, okay not to finish)
+1.  [Go by Example][12] and possibly [Tour of Go][1]
 2.  [How to Write Go Code][3]
 3.  [Effective go][4] (to understand why)
 4.  Start a project of your own, doesn’t matter how big or small
@@ -29,6 +29,7 @@
 [9]: <https://www.oreilly.com/library/view/learning-go/9781492077206/>
 [10]: <https://go.dev/blog/using-go-modules>
 [11]: <https://100go.co/>
+[12]: <https://gobyexample.com/>
 
 💥 It is really important you get coding something you *want* to make, a project, as soon as possible. That will keep you motivated to learn. Obviously, you'll be writing a lot of your own code between reading books. But, by the time you read all of that, while coding at the same time, you'll be on your way to becoming a Go master for sure.
 
