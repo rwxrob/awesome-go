@@ -1,6 +1,6 @@
 # My Personal "Awesome" Go List
 
-🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that all these resources assume you already know how to program, that you know what a "loop" is, for example. (Stay tuned. I'm hoping to create a "Learn to Code, Go as a First Programming Language".
+🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that all these resources assume you already know how to program, that you know what a "loop" is, for example. (Stay tuned. I'm hoping to create a "Learn to Code in Go as a First Programming Language".
 
 1.  [Go by Example][12] and possibly [Tour of Go][1]
 2.  Browse the official [Go User Manual][13]
