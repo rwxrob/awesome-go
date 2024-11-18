@@ -1,22 +1,24 @@
 # My Personal "Awesome" Go List
 
-🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that there are currently no good resources for first learning how to program at all. These all assume you know what a "loop" is, for example. (I'd like to change that myself eventually.)
+🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that all these resources assume you already know how to program, that you know what a "loop" is, for example. (Stay tuned. I'm hoping to create a "Learn to Code, Go as a First Programming Language".
 
 1.  [Go by Example][12] and possibly [Tour of Go][1]
-2.  [How to Write Go Code][3]
-3.  [Effective go][4] (to understand why)
-4.  Start a project of your own, doesn’t matter how big or small
-5.  Start reading [Go 101][8] concurrently (600 pages) and [Go Modules][10] (not in book)
-6.  Code something more advanced with concurrency (net/http, contexts)
-7.  Read [Go Code Review Comments][7] for style guide
-8.  Read [The Go Programming Language Specification][5] to fill any gaps
-9.  Read and learn from the [Go standard library][6] source code
-10. Read and learn from the [Bonzai core library] source code
-11. Maybe read [Learning Go][9] (but you’ll have to buy it)
-12. Read [100 Go Mistakes and How to Avoid Them][11]
-13. Write a middleware API using any framework
-14. Create a command line tool using Bonzai
-15. Create a command line tool using Cobra
+2.  Browse the official [Go User Manual][13]
+3.  [How to Write Go Code][3]
+4.  [Effective go][4] (to understand why)
+5.  Start a project of your own, doesn’t matter how big or small
+6.  Start reading [Go 101][8] concurrently (600 pages) and [Go Modules][10] (not in book)
+7.  Code something more advanced with concurrency (net/http, contexts)
+8.  Read [Go Code Review Comments][7] for style guide
+9.  Read [The Go Programming Language Specification][5] to fill any gaps
+10. Browse the [Go standard library][6] source code
+11. Browse the [Bonzai monorepo][2] source code
+12. Browse the [Universal Package Library][] source code
+13. Maybe read [Learning Go][9] (but you’ll have to buy it)
+14. Read [100 Go Mistakes and How to Avoid Them][11]
+15. Create a command line tool using Bonzai
+16. Create a command line tool using Cobra
+17. Write a middleware API using Gin or another framework
 
 [1]: <http://go.dev/tour>
 [2]: <https://github.com/rwxrob/bonzai>
@@ -24,12 +26,14 @@
 [4]: <https://golang.org/doc/effective_go.html>
 [5]: <https://golang.org/ref/spec>
 [6]: <https://pkg.go.dev/std>
-[Bonzai core library]: <https://github.com/golang/go/wiki/CodeReviewComments>
+[7]: <https://github.com/golang/go/wiki/CodeReviewComments>
 [8]: <https://go101.org/article/101.html>
 [9]: <https://www.oreilly.com/library/view/learning-go/9781492077206/>
 [10]: <https://go.dev/blog/using-go-modules>
 [11]: <https://100go.co/>
 [12]: <https://gobyexample.com/>
+[13]: <https://go.dev/doc>
+[14]: <https://pkg.go.dev>
 
 💥 It is really important you get coding something you *want* to make, a project, as soon as possible. That will keep you motivated to learn. Obviously, you'll be writing a lot of your own code between reading books. But, by the time you read all of that, while coding at the same time, you'll be on your way to becoming a Go master for sure.
 
