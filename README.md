@@ -2,7 +2,8 @@
 
 🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that all these resources assume you already know how to program, that you know what a "loop" is, for example. 
 
-0. 🧙📖 [A Code Wizard's First Spell Book:  Learning Computer Science and Programming with Go as a First Language][book]
+0. [A Code Wizard's First Spell Book:  
+Learning Computer Science and Programming with Go as a First Language][book]
 
 [book]: <https://github.com/rwxrob/code-wizard-book>
 
