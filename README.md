@@ -1,6 +1,6 @@
 # My Personal "Awesome" Go List
 
-🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that all of these resources (except [the code wizard book][book]) assume you already know how to program, that you know what a "loop" is, for example.
+🎉 Just learning Go? Welcome to the party! Here's what I recommend most people do to learn it well. Note that most of these resources assume you already know how to program, that you know what a "loop" is, for example.
 
 0. [A Code Mage's First Spell Book][book]  
    _Learn practical computer science and programming with Go as a first language_
